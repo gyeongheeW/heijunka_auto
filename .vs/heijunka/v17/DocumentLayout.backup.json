@@ -1,0 +1,651 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Planning\\NetDemandCalc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Planning\\NetDemandCalc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Models\\AppLogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Models\\AppLogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Planning\\PullForwarder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Planning\\PullForwarder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\MasterDataView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Views\\MasterDataView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Planning\\FulfillmentChecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Planning\\FulfillmentChecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Planning\\Planner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Planning\\Planner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Models\\AppConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Models\\AppConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\heijunka.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\heijunka.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Planning\\LpPlanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Planning\\LpPlanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Sequencing\\Sequencer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Sequencing\\Sequencer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\MasterDataView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Views\\MasterDataView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Planning\\Allocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Planning\\Allocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\SettingsValueView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Views\\SettingsValueView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\SettingsValueView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Views\\SettingsValueView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\SettingsView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Views\\SettingsView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Planning\\FenceTrimmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Planning\\FenceTrimmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceEndingView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Views\\TimeFenceEndingView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\IO\\ExcelReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\IO\\ExcelReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Models\\PlanSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Models\\PlanSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Models\\Item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Models\\Item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Views\\TimeFenceView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Views\\TimeFenceView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceFileView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Views\\TimeFenceFileView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceResultView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Views\\TimeFenceResultView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceFileView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Views\\TimeFenceFileView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceEndingView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Views\\TimeFenceEndingView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceResultView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Views\\TimeFenceResultView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Sequencing\\OrderGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Sequencing\\OrderGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Sequencing\\ScoreCalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Sequencing\\ScoreCalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\SequencingView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Views\\SequencingView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\SequencingFileView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Views\\SequencingFileView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Sequencing\\QualityScorer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Sequencing\\QualityScorer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\SequencingFileView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Views\\SequencingFileView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\SequencingResultView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\Views\\SequencingResultView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\IO\\ExcelWriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\IO\\ExcelWriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\MainWindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:heijunka\\MainWindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppLogger.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Models\\AppLogger.cs",
+              "RelativeDocumentMoniker": "heijunka\\Models\\AppLogger.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Models\\AppLogger.cs",
+              "RelativeToolTip": "heijunka\\Models\\AppLogger.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA7wBoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T01:12:32.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PullForwarder.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Planning\\PullForwarder.cs",
+              "RelativeDocumentMoniker": "heijunka\\Planning\\PullForwarder.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Planning\\PullForwarder.cs",
+              "RelativeToolTip": "heijunka\\Planning\\PullForwarder.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAiwFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T00:19:28.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MasterDataView.xaml",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\MasterDataView.xaml",
+              "RelativeDocumentMoniker": "heijunka\\Views\\MasterDataView.xaml",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\MasterDataView.xaml",
+              "RelativeToolTip": "heijunka\\Views\\MasterDataView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-21T23:19:50.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FulfillmentChecker.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Planning\\FulfillmentChecker.cs",
+              "RelativeDocumentMoniker": "heijunka\\Planning\\FulfillmentChecker.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Planning\\FulfillmentChecker.cs",
+              "RelativeToolTip": "heijunka\\Planning\\FulfillmentChecker.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwKgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T00:01:15.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Planner.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Planning\\Planner.cs",
+              "RelativeDocumentMoniker": "heijunka\\Planning\\Planner.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Planning\\Planner.cs",
+              "RelativeToolTip": "heijunka\\Planning\\Planner.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAQwG0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T00:02:13.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NetDemandCalc.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Planning\\NetDemandCalc.cs",
+              "RelativeDocumentMoniker": "heijunka\\Planning\\NetDemandCalc.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Planning\\NetDemandCalc.cs",
+              "RelativeToolTip": "heijunka\\Planning\\NetDemandCalc.cs",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAkwPoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T01:57:38.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppConfig.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Models\\AppConfig.cs",
+              "RelativeDocumentMoniker": "heijunka\\Models\\AppConfig.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Models\\AppConfig.cs",
+              "RelativeToolTip": "heijunka\\Models\\AppConfig.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAiwGAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T23:20:47.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "heijunka.csproj",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\heijunka.csproj",
+              "RelativeDocumentMoniker": "heijunka\\heijunka.csproj",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\heijunka.csproj",
+              "RelativeToolTip": "heijunka\\heijunka.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-21T23:29:36.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LpPlanner.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Planning\\LpPlanner.cs",
+              "RelativeDocumentMoniker": "heijunka\\Planning\\LpPlanner.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Planning\\LpPlanner.cs",
+              "RelativeToolTip": "heijunka\\Planning\\LpPlanner.cs",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAiwBwBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T23:16:52.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Sequencer.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Sequencing\\Sequencer.cs",
+              "RelativeDocumentMoniker": "heijunka\\Sequencing\\Sequencer.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Sequencing\\Sequencer.cs",
+              "RelativeToolTip": "heijunka\\Sequencing\\Sequencer.cs",
+              "ViewState": "AgIAACQBAAAAAAAAAAAwwEABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T22:52:28.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MasterDataView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\MasterDataView.xaml.cs",
+              "RelativeDocumentMoniker": "heijunka\\Views\\MasterDataView.xaml.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\MasterDataView.xaml.cs",
+              "RelativeToolTip": "heijunka\\Views\\MasterDataView.xaml.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAMwFQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T00:31:33.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Allocator.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Planning\\Allocator.cs",
+              "RelativeDocumentMoniker": "heijunka\\Planning\\Allocator.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Planning\\Allocator.cs",
+              "RelativeToolTip": "heijunka\\Planning\\Allocator.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwFsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T00:44:18.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SettingsValueView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\SettingsValueView.xaml.cs",
+              "RelativeDocumentMoniker": "heijunka\\Views\\SettingsValueView.xaml.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\SettingsValueView.xaml.cs",
+              "RelativeToolTip": "heijunka\\Views\\SettingsValueView.xaml.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAiwMYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T00:45:55.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SettingsValueView.xaml",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\SettingsValueView.xaml",
+              "RelativeDocumentMoniker": "heijunka\\Views\\SettingsValueView.xaml",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\SettingsValueView.xaml",
+              "RelativeToolTip": "heijunka\\Views\\SettingsValueView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-21T00:45:28.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SettingsView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\SettingsView.xaml.cs",
+              "RelativeDocumentMoniker": "heijunka\\Views\\SettingsView.xaml.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\SettingsView.xaml.cs",
+              "RelativeToolTip": "heijunka\\Views\\SettingsView.xaml.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAiwIMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T23:21:31.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FenceTrimmer.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Planning\\FenceTrimmer.cs",
+              "RelativeDocumentMoniker": "heijunka\\Planning\\FenceTrimmer.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Planning\\FenceTrimmer.cs",
+              "RelativeToolTip": "heijunka\\Planning\\FenceTrimmer.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAiwFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T00:40:29.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TimeFenceEndingView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceEndingView.xaml.cs",
+              "RelativeDocumentMoniker": "heijunka\\Views\\TimeFenceEndingView.xaml.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceEndingView.xaml.cs",
+              "RelativeToolTip": "heijunka\\Views\\TimeFenceEndingView.xaml.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAiwGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T02:02:36.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ExcelReader.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\IO\\ExcelReader.cs",
+              "RelativeDocumentMoniker": "heijunka\\IO\\ExcelReader.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\IO\\ExcelReader.cs",
+              "RelativeToolTip": "heijunka\\IO\\ExcelReader.cs",
+              "ViewState": "AgIAABEBAAAAAAAAAAAiwCkBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T00:34:28.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PlanSettings.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Models\\PlanSettings.cs",
+              "RelativeDocumentMoniker": "heijunka\\Models\\PlanSettings.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Models\\PlanSettings.cs",
+              "RelativeToolTip": "heijunka\\Models\\PlanSettings.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAswGYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T22:53:44.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "heijunka\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Models\\Item.cs",
+              "RelativeToolTip": "heijunka\\Models\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T23:58:51.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TimeFenceView.xaml",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceView.xaml",
+              "RelativeDocumentMoniker": "heijunka\\Views\\TimeFenceView.xaml",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceView.xaml",
+              "RelativeToolTip": "heijunka\\Views\\TimeFenceView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-21T02:01:23.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TimeFenceView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceView.xaml.cs",
+              "RelativeDocumentMoniker": "heijunka\\Views\\TimeFenceView.xaml.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceView.xaml.cs",
+              "RelativeToolTip": "heijunka\\Views\\TimeFenceView.xaml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T00:37:03.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TimeFenceFileView.xaml",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceFileView.xaml",
+              "RelativeDocumentMoniker": "heijunka\\Views\\TimeFenceFileView.xaml",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceFileView.xaml",
+              "RelativeToolTip": "heijunka\\Views\\TimeFenceFileView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-21T02:03:47.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TimeFenceResultView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceResultView.xaml.cs",
+              "RelativeDocumentMoniker": "heijunka\\Views\\TimeFenceResultView.xaml.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceResultView.xaml.cs",
+              "RelativeToolTip": "heijunka\\Views\\TimeFenceResultView.xaml.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAkwL8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T02:00:27.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TimeFenceFileView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceFileView.xaml.cs",
+              "RelativeDocumentMoniker": "heijunka\\Views\\TimeFenceFileView.xaml.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceFileView.xaml.cs",
+              "RelativeToolTip": "heijunka\\Views\\TimeFenceFileView.xaml.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAkwIAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T00:35:30.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TimeFenceEndingView.xaml",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceEndingView.xaml",
+              "RelativeDocumentMoniker": "heijunka\\Views\\TimeFenceEndingView.xaml",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceEndingView.xaml",
+              "RelativeToolTip": "heijunka\\Views\\TimeFenceEndingView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-21T02:02:08.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TimeFenceResultView.xaml",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceResultView.xaml",
+              "RelativeDocumentMoniker": "heijunka\\Views\\TimeFenceResultView.xaml",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\TimeFenceResultView.xaml",
+              "RelativeToolTip": "heijunka\\Views\\TimeFenceResultView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-21T02:00:28.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OrderGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Sequencing\\OrderGenerator.cs",
+              "RelativeDocumentMoniker": "heijunka\\Sequencing\\OrderGenerator.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Sequencing\\OrderGenerator.cs",
+              "RelativeToolTip": "heijunka\\Sequencing\\OrderGenerator.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAUwFYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T22:52:10.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "heijunka\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\MainWindow.xaml",
+              "RelativeToolTip": "heijunka\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-18T23:43:31.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ScoreCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Sequencing\\ScoreCalculator.cs",
+              "RelativeDocumentMoniker": "heijunka\\Sequencing\\ScoreCalculator.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Sequencing\\ScoreCalculator.cs",
+              "RelativeToolTip": "heijunka\\Sequencing\\ScoreCalculator.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAUwFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T22:52:44.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "heijunka\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\MainWindow.xaml.cs",
+              "RelativeToolTip": "heijunka\\MainWindow.xaml.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAwEQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T23:56:38.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\App.xaml",
+              "RelativeDocumentMoniker": "heijunka\\App.xaml",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\App.xaml",
+              "RelativeToolTip": "heijunka\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-18T23:43:13.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SequencingView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\SequencingView.xaml.cs",
+              "RelativeDocumentMoniker": "heijunka\\Views\\SequencingView.xaml.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\SequencingView.xaml.cs",
+              "RelativeToolTip": "heijunka\\Views\\SequencingView.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwDoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T22:57:05.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\App.xaml.cs",
+              "RelativeDocumentMoniker": "heijunka\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\App.xaml.cs",
+              "RelativeToolTip": "heijunka\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T23:25:50.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SequencingFileView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\SequencingFileView.xaml.cs",
+              "RelativeDocumentMoniker": "heijunka\\Views\\SequencingFileView.xaml.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\SequencingFileView.xaml.cs",
+              "RelativeToolTip": "heijunka\\Views\\SequencingFileView.xaml.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAcwHwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T22:56:32.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "QualityScorer.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Sequencing\\QualityScorer.cs",
+              "RelativeDocumentMoniker": "heijunka\\Sequencing\\QualityScorer.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Sequencing\\QualityScorer.cs",
+              "RelativeToolTip": "heijunka\\Sequencing\\QualityScorer.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAcwGYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T22:53:02.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "SequencingFileView.xaml",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\SequencingFileView.xaml",
+              "RelativeDocumentMoniker": "heijunka\\Views\\SequencingFileView.xaml",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\SequencingFileView.xaml",
+              "RelativeToolTip": "heijunka\\Views\\SequencingFileView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-18T22:56:25.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SequencingResultView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\SequencingResultView.xaml.cs",
+              "RelativeDocumentMoniker": "heijunka\\Views\\SequencingResultView.xaml.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\Views\\SequencingResultView.xaml.cs",
+              "RelativeToolTip": "heijunka\\Views\\SequencingResultView.xaml.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAcwIwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T23:05:17.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ExcelWriter.cs",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\IO\\ExcelWriter.cs",
+              "RelativeDocumentMoniker": "heijunka\\IO\\ExcelWriter.cs",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\IO\\ExcelWriter.cs",
+              "RelativeToolTip": "heijunka\\IO\\ExcelWriter.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwv2UAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T23:04:36.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "heijunka\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\27945\\Desktop\\public_projects\\heijunka\\heijunka\\MainWindow.xaml",
+              "RelativeToolTip": "heijunka\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-17T23:57:05.474Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

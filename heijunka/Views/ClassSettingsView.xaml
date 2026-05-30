@@ -1,0 +1,128 @@
+﻿<UserControl x:Class="heijunka.Views.ClassSettingsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Margin="16">
+
+            <TextBlock Text="분류 라벨 및 가중치"
+                       FontWeight="Bold" Margin="0,0,0,8"/>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="120"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="80"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="32"/>
+                    <RowDefinition Height="32"/>
+                    <RowDefinition Height="32"/>
+                    <RowDefinition Height="32"/>
+                    <RowDefinition Height="32"/>
+                    <RowDefinition Height="32"/>
+                    <RowDefinition Height="32"/>
+                </Grid.RowDefinitions>
+
+                <!-- 헤더 -->
+                <TextBlock Grid.Row="0" Grid.Column="0"
+                           Text="분류" FontWeight="Bold"
+                           Margin="0,0,0,4"/>
+                <TextBlock Grid.Row="0" Grid.Column="1"
+                           Text="라벨" FontWeight="Bold"
+                           Margin="0,0,0,4"/>
+                <TextBlock Grid.Row="0" Grid.Column="3"
+                           Text="가중치" FontWeight="Bold"
+                           Margin="0,0,0,4"/>
+
+                <!-- A -->
+                <TextBlock Grid.Row="1" Grid.Column="0"
+                           Text="분류A" VerticalAlignment="Center"/>
+                <TextBox Grid.Row="1" Grid.Column="1"
+                         x:Name="TxtLabelA" Text="분류A"
+                         VerticalAlignment="Center" Margin="0,0,8,0"/>
+                <TextBox Grid.Row="1" Grid.Column="3"
+                         x:Name="TxtWeightA" Text="2"
+                         VerticalAlignment="Center"/>
+
+                <!-- B -->
+                <TextBlock Grid.Row="2" Grid.Column="0"
+                           Text="분류B" VerticalAlignment="Center"/>
+                <TextBox Grid.Row="2" Grid.Column="1"
+                         x:Name="TxtLabelB" Text="분류B"
+                         VerticalAlignment="Center" Margin="0,0,8,0"/>
+                <TextBox Grid.Row="2" Grid.Column="3"
+                         x:Name="TxtWeightB" Text="4"
+                         VerticalAlignment="Center"/>
+
+                <!-- C -->
+                <TextBlock Grid.Row="3" Grid.Column="0"
+                           Text="분류C" VerticalAlignment="Center"/>
+                <TextBox Grid.Row="3" Grid.Column="1"
+                         x:Name="TxtLabelC" Text="분류C"
+                         VerticalAlignment="Center" Margin="0,0,8,0"/>
+                <TextBox Grid.Row="3" Grid.Column="3"
+                         x:Name="TxtWeightC" Text="1"
+                         VerticalAlignment="Center"/>
+
+                <!-- D -->
+                <TextBlock Grid.Row="4" Grid.Column="0"
+                           Text="분류D" VerticalAlignment="Center"/>
+                <TextBox Grid.Row="4" Grid.Column="1"
+                         x:Name="TxtLabelD" Text="분류D"
+                         VerticalAlignment="Center" Margin="0,0,8,0"/>
+                <TextBox Grid.Row="4" Grid.Column="3"
+                         x:Name="TxtWeightD" Text="1"
+                         VerticalAlignment="Center"/>
+
+                <!-- E -->
+                <TextBlock Grid.Row="5" Grid.Column="0"
+                           Text="분류E" VerticalAlignment="Center"/>
+                <TextBox Grid.Row="5" Grid.Column="1"
+                         x:Name="TxtLabelE" Text="분류E"
+                         VerticalAlignment="Center" Margin="0,0,8,0"/>
+                <TextBox Grid.Row="5" Grid.Column="3"
+                         x:Name="TxtWeightE" Text="1"
+                         VerticalAlignment="Center"/>
+
+                <!-- F -->
+                <TextBlock Grid.Row="6" Grid.Column="0"
+                           Text="분류F" VerticalAlignment="Center"/>
+                <TextBox Grid.Row="6" Grid.Column="1"
+                         x:Name="TxtLabelF" Text="분류F"
+                         VerticalAlignment="Center" Margin="0,0,8,0"/>
+                <TextBox Grid.Row="6" Grid.Column="3"
+                         x:Name="TxtWeightF" Text="1"
+                         VerticalAlignment="Center"/>
+
+                <!-- G -->
+                <TextBlock Grid.Row="7" Grid.Column="0"
+                           Text="분류G" VerticalAlignment="Center"/>
+                <TextBox Grid.Row="7" Grid.Column="1"
+                         x:Name="TxtLabelG" Text="분류G"
+                         VerticalAlignment="Center" Margin="0,0,8,0"/>
+                <TextBox Grid.Row="7" Grid.Column="3"
+                         x:Name="TxtWeightG" Text="1"
+                         VerticalAlignment="Center"/>
+            </Grid>
+
+            <Separator Margin="0,16,0,16"/>
+
+            <!-- 같은품목 패널티 -->
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,16">
+                <TextBlock Text="같은 품목 패널티"
+                           VerticalAlignment="Center" Width="140"/>
+                <TextBox x:Name="TxtSamePenalty" Text="-99"
+                         Width="80" VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <Button Content="💾 분류설정 저장"
+                    Padding="16,8" Width="140"
+                    HorizontalAlignment="Left"
+                    Click="BtnSaveClassSettings_Click"/>
+
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

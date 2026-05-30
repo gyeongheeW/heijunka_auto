@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="heijunka.Views.TimeFenceLogView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Margin="8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,4">
+            <Button Content="🗑 로그 지우기" Padding="8,4"
+                    Click="BtnClearLog_Click"/>
+        </StackPanel>
+
+        <TextBox Grid.Row="1" x:Name="TxtLog"
+                 IsReadOnly="True"
+                 FontFamily="Consolas"
+                 FontSize="12"
+                 TextWrapping="Wrap"
+                 VerticalScrollBarVisibility="Auto"
+                 Margin="0,4,0,0"/>
+    </Grid>
+</UserControl>

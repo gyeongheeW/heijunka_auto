@@ -1,0 +1,102 @@
+﻿<UserControl x:Class="heijunka.Views.SequencingFileView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Margin="8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- 타임펜스 결과 파일 -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal"
+                    Margin="0,0,0,8">
+            <TextBlock Text="타임펜스 결과" VerticalAlignment="Center"
+                       Width="90"/>
+            <TextBox x:Name="TxtInputPath" Width="400"
+                     IsReadOnly="True" Margin="0,0,4,0"
+                     VerticalAlignment="Center"/>
+            <Button Content="찾아보기" Padding="8,4"
+                    Click="BtnInputBrowse_Click"/>
+        </StackPanel>
+
+        <!-- 출력 폴더 -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal"
+                    Margin="0,0,0,16">
+            <TextBlock Text="출력 폴더" VerticalAlignment="Center"
+                       Width="90"/>
+            <TextBox x:Name="TxtOutputFolder" Width="400"
+                     IsReadOnly="True" Margin="0,0,4,0"
+                     VerticalAlignment="Center"/>
+            <Button Content="폴더 선택" Padding="8,4"
+                    Click="BtnOutputBrowse_Click"/>
+        </StackPanel>
+
+        <!-- 이전 시퀀스 -->
+        <GroupBox Grid.Row="2" Header="이전 시퀀스 (선택사항)"
+                  Margin="0,0,0,8">
+            <Grid Margin="8">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="200"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="28"/>
+                    <RowDefinition Height="28"/>
+                    <RowDefinition Height="28"/>
+                    <RowDefinition Height="28"/>
+                    <RowDefinition Height="28"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" Grid.Column="0"
+                           Text="순서 1" VerticalAlignment="Center"/>
+                <TextBox Grid.Row="0" Grid.Column="1"
+                         x:Name="TxtPrev1" VerticalAlignment="Center"/>
+
+                <TextBlock Grid.Row="1" Grid.Column="0"
+                           Text="순서 2" VerticalAlignment="Center"/>
+                <TextBox Grid.Row="1" Grid.Column="1"
+                         x:Name="TxtPrev2" VerticalAlignment="Center"/>
+
+                <TextBlock Grid.Row="2" Grid.Column="0"
+                           Text="순서 3" VerticalAlignment="Center"/>
+                <TextBox Grid.Row="2" Grid.Column="1"
+                         x:Name="TxtPrev3" VerticalAlignment="Center"/>
+
+                <TextBlock Grid.Row="3" Grid.Column="0"
+                           Text="순서 4" VerticalAlignment="Center"/>
+                <TextBox Grid.Row="3" Grid.Column="1"
+                         x:Name="TxtPrev4" VerticalAlignment="Center"/>
+
+                <TextBlock Grid.Row="4" Grid.Column="0"
+                           Text="순서 5" VerticalAlignment="Center"/>
+                <TextBox Grid.Row="4" Grid.Column="1"
+                         x:Name="TxtPrev5" VerticalAlignment="Center"/>
+
+                <TextBlock Grid.Row="5" Grid.Column="0"
+                           Grid.ColumnSpan="2"
+                           Text="비워두면 제약 없이 시작"
+                           Foreground="#64748B"
+                           FontSize="11"
+                           Margin="0,4,0,0"/>
+            </Grid>
+        </GroupBox>
+
+        <!-- 실행 버튼 -->
+        <StackPanel Grid.Row="3" Orientation="Horizontal"
+                    VerticalAlignment="Top">
+            <Button x:Name="BtnRun" Content="▶ 실행"
+                    Padding="16,8" Margin="0,0,8,0"
+                    Background="#4ECDC4" Foreground="White"
+                    FontWeight="Bold"
+                    Click="BtnRun_Click"/>
+            <TextBlock x:Name="TxtStatus"
+                       VerticalAlignment="Center"
+                       Foreground="#64748B"/>
+        </StackPanel>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,60 @@
+﻿<UserControl x:Class="heijunka.Views.TimeFenceFileView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Margin="8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- 소요량 파일 -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal"
+                    Margin="0,0,0,8">
+            <TextBlock Text="소요량 파일" VerticalAlignment="Center"
+                       Width="80"/>
+            <TextBox x:Name="TxtDemandPath" Width="400"
+                     IsReadOnly="True" Margin="0,0,4,0"
+                     VerticalAlignment="Center"/>
+            <Button Content="찾아보기" Padding="8,4"
+                    Click="BtnDemandBrowse_Click"/>
+        </StackPanel>
+
+        <!-- 출력 폴더 -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal"
+                    Margin="0,0,0,16">
+            <TextBlock Text="출력 폴더" VerticalAlignment="Center"
+                       Width="80"/>
+            <TextBox x:Name="TxtOutputFolder" Width="400"
+                     IsReadOnly="True" Margin="0,0,4,0"
+                     VerticalAlignment="Center"/>
+            <Button Content="폴더 선택" Padding="8,4"
+                    Click="BtnOutputBrowse_Click"/>
+        </StackPanel>
+
+        <!-- 실행 버튼 -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal"
+                    Margin="0,0,0,8">
+            <Button x:Name="BtnRun" Content="▶ 실행"
+                    Padding="16,8" Margin="0,0,8,0"
+                    Background="#4ECDC4" Foreground="White"
+                    FontWeight="Bold"
+                    Click="BtnRun_Click"/>
+            <TextBlock x:Name="TxtStatus"
+                       VerticalAlignment="Center"
+                       Foreground="#64748B"/>
+        </StackPanel>
+
+        <!-- 파일 정보 -->
+        <GroupBox Grid.Row="3" Header="파일 정보">
+            <StackPanel Margin="8">
+                <TextBlock x:Name="TxtFileInfo"
+                           Foreground="#64748B"
+                           Text="파일을 선택하면 정보가 표시됩니다."/>
+            </StackPanel>
+        </GroupBox>
+
+    </Grid>
+</UserControl>

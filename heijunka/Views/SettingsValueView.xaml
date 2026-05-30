@@ -1,0 +1,237 @@
+﻿<UserControl x:Class="heijunka.Views.SettingsValueView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer>
+        <StackPanel Margin="16">
+
+            <!-- 생산 설정 -->
+            <TextBlock Text="생산 설정"
+                       FontWeight="Bold"
+                       Margin="0,0,0,8"/>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="160"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="32"/>
+                    <RowDefinition Height="32"/>
+                    <RowDefinition Height="32"/>
+                    <RowDefinition Height="32"/>
+                    <RowDefinition Height="32"/>
+                    <RowDefinition Height="32"/>
+                    <RowDefinition Height="32"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" Grid.Column="0"
+                           Text="UPH" VerticalAlignment="Center"/>
+                <TextBox Grid.Row="0" Grid.Column="1"
+                         x:Name="TxtUPH" Text="40"
+                         VerticalAlignment="Center"
+                         TextChanged="ProductionSettings_Changed"/>
+
+                <TextBlock Grid.Row="1" Grid.Column="0"
+                           Text="펜스당 시간(hr)"
+                           VerticalAlignment="Center"/>
+                <TextBox Grid.Row="1" Grid.Column="1"
+                         x:Name="TxtFenceHours" Text="2"
+                         VerticalAlignment="Center"
+                         TextChanged="ProductionSettings_Changed"/>
+
+                <TextBlock Grid.Row="2" Grid.Column="0"
+                           Text="버킷당 목표"
+                           VerticalAlignment="Center"/>
+                <TextBlock Grid.Row="2" Grid.Column="1"
+                           x:Name="TxtTarget" Text="80대"
+                           FontWeight="Bold"
+                           Foreground="#4ECDC4"
+                           VerticalAlignment="Center"/>
+
+                <TextBlock Grid.Row="3" Grid.Column="0"
+                           Text="시프트수"
+                           VerticalAlignment="Center"/>
+                <TextBox Grid.Row="3" Grid.Column="1"
+                         x:Name="TxtShiftCount" Text="3"
+                         VerticalAlignment="Center"/>
+
+                <TextBlock Grid.Row="4" Grid.Column="0"
+                           Text="시프트당 펜스수"
+                           VerticalAlignment="Center"/>
+                <TextBox Grid.Row="4" Grid.Column="1"
+                         x:Name="TxtFencesPerShift" Text="4"
+                         VerticalAlignment="Center"/>
+
+                <!-- QPC -->
+                <CheckBox Grid.Row="5" Grid.Column="0"
+                          x:Name="ChkQPC"
+                          Content="QPC 적용 (타임펜스)"
+                          VerticalAlignment="Center"
+                          Checked="ChkQPC_Changed"
+                          Unchecked="ChkQPC_Changed"/>
+                <TextBox Grid.Row="5" Grid.Column="1"
+                         x:Name="TxtQPC" Text="1"
+                         IsEnabled="False"
+                         VerticalAlignment="Center"
+                         TextChanged="ProductionSettings_Changed"/>
+
+                <!-- Max Order Qty -->
+                <CheckBox Grid.Row="6" Grid.Column="0"
+                          x:Name="ChkMaxOrderQty"
+                          Content="Max Order Qty (시퀀싱)"
+                          VerticalAlignment="Center"
+                          Checked="ChkMaxOrderQty_Changed"
+                          Unchecked="ChkMaxOrderQty_Changed"/>
+                <TextBox Grid.Row="6" Grid.Column="1"
+                         x:Name="TxtMaxOrderQty" Text="20"
+                         IsEnabled="False"
+                         VerticalAlignment="Center"/>
+
+            </Grid>
+
+            <Separator Margin="0,16,0,16"/>
+
+            <!-- 타임펜스 모드 -->
+            <TextBlock Text="타임펜스 계획 모드"
+                       FontWeight="Bold"
+                       Margin="0,0,0,8"/>
+            <StackPanel Orientation="Horizontal"
+                        Margin="0,0,0,8">
+                <RadioButton x:Name="RbHeuristic"
+                             Content="휴리스틱 (재고회전)"
+                             IsChecked="True"
+                             Margin="0,0,16,0"/>
+                <RadioButton x:Name="RbLP"
+                             Content="LP (비율최적화)"/>
+            </StackPanel>
+
+            <Separator Margin="0,16,0,16"/>
+
+            <!-- 시프트 시작시간 -->
+            <TextBlock Text="시프트 시작시간"
+                       FontWeight="Bold"
+                       Margin="0,0,0,8"/>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="160"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="32"/>
+                    <RowDefinition Height="32"/>
+                    <RowDefinition Height="32"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" Grid.Column="0"
+                           Text="시프트1 시작"
+                           VerticalAlignment="Center"/>
+                <TextBox Grid.Row="0" Grid.Column="1"
+                         x:Name="TxtShift1Start" Text="08:00"
+                         VerticalAlignment="Center"/>
+
+                <TextBlock Grid.Row="1" Grid.Column="0"
+                           Text="시프트2 시작"
+                           VerticalAlignment="Center"/>
+                <TextBox Grid.Row="1" Grid.Column="1"
+                         x:Name="TxtShift2Start" Text="16:00"
+                         VerticalAlignment="Center"/>
+
+                <TextBlock Grid.Row="2" Grid.Column="0"
+                           Text="시프트3 시작"
+                           VerticalAlignment="Center"/>
+                <TextBox Grid.Row="2" Grid.Column="1"
+                         x:Name="TxtShift3Start" Text="00:00"
+                         VerticalAlignment="Center"/>
+            </Grid>
+
+            <Separator Margin="0,16,0,16"/>
+
+            <!-- 시퀀싱 우선순위 -->
+            <TextBlock Text="시퀀싱 우선순위"
+                       FontWeight="Bold"
+                       Margin="0,0,0,8"/>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="160"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="32"/>
+                    <RowDefinition Height="32"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" Grid.Column="0"
+                           Text="전환규칙 우선순위"
+                           VerticalAlignment="Center"/>
+                <TextBox Grid.Row="0" Grid.Column="1"
+                         x:Name="TxtTransferRuleWeight"
+                         Text="10"
+                         VerticalAlignment="Center"/>
+
+                <TextBlock Grid.Row="1" Grid.Column="0"
+                           Text="분류섞기 우선순위"
+                           VerticalAlignment="Center"/>
+                <TextBox Grid.Row="1" Grid.Column="1"
+                         x:Name="TxtClassMixWeight"
+                         Text="1"
+                         VerticalAlignment="Center"/>
+            </Grid>
+
+            <Separator Margin="0,16,0,16"/>
+
+            <!-- 시퀀싱 알고리즘 -->
+            <TextBlock Text="시퀀싱 알고리즘"
+                       FontWeight="Bold"
+                       Margin="0,0,0,8"/>
+
+            <StackPanel Orientation="Horizontal"
+                        Margin="0,0,0,8">
+                <RadioButton x:Name="RbGreedy"
+                             Content="Greedy"
+                             IsChecked="True"
+                             Margin="0,0,16,0"/>
+                <RadioButton x:Name="RbSwap"
+                             Content="Greedy + Swap"
+                             Margin="0,0,16,0"/>
+                <RadioButton x:Name="RbTabu"
+                             Content="Greedy + Tabu"/>
+            </StackPanel>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="160"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="32"/>
+                    <RowDefinition Height="32"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" Grid.Column="0"
+                           Text="최대 반복횟수"
+                           VerticalAlignment="Center"/>
+                <TextBox Grid.Row="0" Grid.Column="1"
+                         x:Name="TxtMaxIterations" Text="1000"
+                         VerticalAlignment="Center"/>
+
+                <TextBlock Grid.Row="1" Grid.Column="0"
+                           Text="개선 없으면 중단"
+                           VerticalAlignment="Center"/>
+                <TextBox Grid.Row="1" Grid.Column="1"
+                         x:Name="TxtNoImproveLimit" Text="50"
+                         VerticalAlignment="Center"/>
+            </Grid>
+
+            <Separator Margin="0,16,0,16"/>
+
+            <Button Content="💾 설정 저장"
+                    Padding="16,8" Width="120"
+                    HorizontalAlignment="Left"
+                    Click="BtnSaveSettings_Click"/>
+
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>
